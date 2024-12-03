@@ -10,15 +10,30 @@
   <style>
     
     /* Add a rounded 2px black border, 25px radius and box shadow around the ad */
-    
+    #ad{
+      border: 2px solid black;
+      border-radius: 25px;
+      box-shadow: 1px 15px 10px black;
+    }
     /* Add hover pseudo-class with a 1.1 transform .8s transition to make it grow */
-
+    #ad:hover{
+      transform:scale(1.1);
+      transition: 0.8s;
+    }
     /* Add the default background image to the iPad, displaying over ipad.png */
+    #screen{
+      background-image: url(images/default.jpg);
+    }
 
+    #screen:hover{
+      background-image: url(images/new.jpg);
+    }
     /* Use a hover class to change the background from default to new */
 
     /* Use the active pseudo-class to show the video.  It is currently hidden. */
-    
+    #screen:active #video{
+      display:block;
+    }
 
   </style>
 </head>
