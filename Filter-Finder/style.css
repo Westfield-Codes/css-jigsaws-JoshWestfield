@@ -39,10 +39,7 @@ img {
   height:188px;
 }
 
-#ross img:hover, #ross:hover {
-  background-color:#fff;
-  opacity: 0.5;
-}
+
 
 .middle {
    position: absolute;
@@ -52,6 +49,3 @@ img {
    -ms-transform: translate(-50%, -50%);
 }
 
-.container#ross:hover {
-   background-color:#ccc!important;
-}

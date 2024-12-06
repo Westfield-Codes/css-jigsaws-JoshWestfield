@@ -14,10 +14,37 @@
         
 
         /* hide the in/out messages*/
-      
+         .middle{
+            opacity:0;
+            transition:0.5s;
+         }
+
+         img:hover ~ .middle{
+            opacity:0.44;
+            transition: 0.5s;
+         }
+
+         .middle{
+            pointer-events: none;
+         }
 
         /* grayscale filter the out images */
+         .out{
+            filter:grayscale(100%);
+         }
 
+         img:hover{
+           
+            opacity:0.33;
+            transition: 0.5s;
+         }
+
+         img{
+            opacity:1;
+            transition: 0.5s;
+         }
+
+         
         
         /* hover states section (no css here) */
 
