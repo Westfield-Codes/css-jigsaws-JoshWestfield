@@ -10,7 +10,14 @@
 	<style>	
     
     /* Identify the parent and child elements below, and apply the positioning, visibility */
-	
+    .tooltiptext{
+      visibility: hidden;
+      position: absolute;
+    }
+    .tooltip:hover .tooltiptext{
+      visibility: visible;
+      position: relative;
+    }
   </style>
 </head>
 
